@@ -1,6 +1,6 @@
 # [magic-spells](https://github.com/Billy-Budd/magic-spells/)
 The super-repository for all of the parts and the final product of Compiler Design.
-Please note that the README.md in the folders [flexicution](/flexicution) and [hip-to-be-square](/hip-to-be-square) are deprecated and the links are now broken that this is a super-repository including all versions of this project. 
+Please note that the README.md in the folders [flexicution](/flexicution) and [hip-to-be-square](/hip-to-be-square) are deprecated and the links are now broken that this is a super-repository including all versions of this project. Name here is a reference to [Crystal Castle's](https://en.wikipedia.org/wiki/Crystal_Castles) song [Magic Spells](https://genius.com/Crystal-castles-magic-spells-lyrics) which can be heard [here](https://youtu.be/fUTJa00puDU). Definitely one of my favorite electronic albums of all time, but programming and compilation are by no means 'magic.' 
 
 ## [flexicution](/flexicution)
 Project part 1A where we modify the earlier code (in this case, [hip-to-be-square](/hip-to-be-square)) to use flex to find tokens. The temporary name this had was [FlexicalAnalysis.cpp](/flexicution/FlexicaAnalysis.l) since the first part of the project was [LexicalAnalysis.cpp](/hip-to-be-square/LexicalAnalysis.cpp) and it felt very fitting. The only song that I knew had 'flex' in the tile is [Logic's](https://en.wikipedia.org/wiki/Logic_(rapper)) [Flexicution](https://en.wikipedia.org/wiki/Flexicution) which you can listen to [here](https://youtu.be/M2NIMHVmGwk). 
