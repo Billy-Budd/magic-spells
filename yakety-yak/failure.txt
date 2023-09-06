@@ -2,21 +2,14 @@ program
 var SMALLER as int ;
 var BIGGER as int ;
 var TEMP as $int ;
-var TEMP as int ;
-var BIGGER as int ;
-var MYINT as int ;
-var MYBOOL as bool ;
-var MYBOOL as int ;
             
 begin
    BIGGER ::= readInt ;
    SMALLER := readInt ;
-   MYBOOL := 100;
 
-   if SMALLER > BIGGER2 then 
+   if SMALLER > BIGGER then 
       TEMP := SMALLER ;
       TEMP1 := 2147483648 ;
-      MYINT := 2147483648 ;
       SMALLER := BIGGER ;
       BIGGER := TEMP ;
    end ;
