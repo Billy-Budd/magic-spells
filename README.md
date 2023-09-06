@@ -9,26 +9,26 @@ As of [yakety-yak](/yakety-yak), the compiler has a makefile (please see each su
 2) You will need to specify it as an <outputName.c> with the .c extension in order to use gcc
 3) There is a stream mode if you don't use any parameters when running, but it will not save any work you do
 4) The makefile has commands:
-    a) make 
-    compiles the program. highly recommend to use because compiling without it takes a lot of typing
-    b) make clean
-    removes all intermediate files (mainly from flex and bison, and also the output files from other make commands)
-    c) there are other make commands, but they include some direct file paths, so I suggest using the regular usage
-      i) make 1
-      ii) make 2
-      iii) make 3
-      iv) make 4
-      v) make 5
-      vi) make sample
-      vii) make fail
+    a) make  
+    compiles the program. highly recommend to use because compiling without it takes a lot of typing  
+    b) make clean  
+    removes all intermediate files (mainly from flex and bison, and also the output files from other make commands)  
+    c) there are other make commands, but they include some direct file paths, so I suggest using the regular usage   
+      i) make 1  
+      ii) make 2  
+      iii) make 3  
+      iv) make 4  
+      v) make 5  
+      vi) make sample  
+      vii) make fail  
       please note that these make commands require the .txt files to be in /main/programs
-5) Errors caught in program:
-    a) Syntax Errors
-    b) Double declared variables
-    c) Undeclared variables
-    d) Integer overflow/invalid number
-    e) i/o file errors 
-    f) segmentation fault error message (there is just a message of what it means when a seg fault happens, the error is not actually caught and will still seg fault the compilation)
+5) Errors caught in program:  
+    a) Syntax Errors  
+    b) Double declared variables  
+    c) Undeclared variables  
+    d) Integer overflow/invalid number  
+    e) i/o file errors  
+    f) segmentation fault error message (there is just a message of what it means when a seg fault happens, the error is not actually caught and will still seg fault the compilation)  
 6) Most errors will just show the error in the console along with some relevant information (line no, variable name), but will not acutally stop the compilation, so your program may still compile when you use gcc
 
 - [Flexicution](/Flexicution.l) This is the flex file that takes the strings and tokenizes them
